@@ -22,17 +22,21 @@
       <a href="writing.html">Writing</a>
       <a href="contact.html">Contact</a>
     </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
 </header>
 
 <main>
-  <section class="hero wrap" style="padding-bottom: 48px;">
+  <section class="hero hero--literary wrap" style="padding-bottom: 48px;">
     <p class="eyebrow literary">The Book</p>
   </section>
 
-  <section class="block wrap" style="padding-top: 0;">
+  <section class="block wrap reveal" style="padding-top: 0;">
     <div class="book-hero">
       <div class="book-cover">
+        <img class="cover-photo" src="assets/book-cover.jpg" alt="" onerror="this.remove()">
         <span class="tag">Nonfiction</span>
         <span class="title">I Build in Silence Whiles They Thought I Was Losing</span>
         <span class="author">Stephen Okyere Nyamekye</span>
@@ -66,7 +70,7 @@
     </div>
   </section>
 
-  <section class="footer-cta wrap">
+  <section class="footer-cta wrap reveal">
     <h2>Interested in the book?</h2>
     <a href="#" class="btn btn-solid">Find it on Amazon →</a>
   </section>
@@ -77,5 +81,6 @@
   <span>Accra, Ghana</span>
 </footer>
 
+<script src="js/site.js" defer></script>
 </body>
 </html>

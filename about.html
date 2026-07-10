@@ -22,6 +22,9 @@
       <a href="writing.html">Writing</a>
       <a href="contact.html">Contact</a>
     </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
 </header>
 
@@ -32,7 +35,7 @@
     <p class="lede">Two habits run through everything Stephen builds: verify before you trust, and say only what needs saying.</p>
   </section>
 
-  <section class="block wrap">
+  <section class="block wrap reveal">
     <div class="two-col">
       <div class="prose">
         <p>Stephen Okyere Nyamekye is a cybersecurity specialist working in information security management, based in Ghana. He holds a bachelor's degree in Information Technology and is currently pursuing a master's degree in Cybersecurity — a combination that keeps him equally comfortable in a threat model and a classroom.</p>
@@ -43,6 +46,13 @@
       </div>
 
       <div>
+        <div class="photo-frame" style="margin-bottom: 24px;">
+          <div class="placeholder">
+            <span class="mono">S·O·N</span>
+            <span class="cap">Photo coming soon</span>
+          </div>
+          <img class="cover-photo" src="assets/headshot.jpg" alt="Stephen Okyere Nyamekye" onerror="this.remove()">
+        </div>
         <div class="stat-list">
           <div class="row"><span>LOCATION</span><span>Accra, Ghana</span></div>
           <div class="row"><span>EDUCATION</span><span>BSc Information Technology</span></div>
@@ -54,7 +64,7 @@
     </div>
   </section>
 
-  <section class="block wrap">
+  <section class="block wrap reveal">
     <div class="section-head">
       <h2>Working areas</h2>
       <p>The skills that carry across every project, technical or written.</p>
@@ -69,7 +79,7 @@
     </div>
   </section>
 
-  <section class="footer-cta wrap">
+  <section class="footer-cta wrap reveal">
     <h2>Want the fuller story?</h2>
     <a href="contact.html" class="btn btn-solid">Get in touch →</a>
   </section>
@@ -80,5 +90,6 @@
   <span>Accra, Ghana</span>
 </footer>
 
+<script src="js/site.js" defer></script>
 </body>
 </html>

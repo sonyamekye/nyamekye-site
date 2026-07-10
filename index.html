@@ -22,6 +22,9 @@
       <a href="writing.html">Writing</a>
       <a href="contact.html">Contact</a>
     </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
 </header>
 
@@ -51,7 +54,7 @@
     </div>
   </div>
 
-  <section class="block wrap">
+  <section class="block wrap reveal">
     <div class="section-head">
       <h2>Four areas, one discipline</h2>
       <p>Different outputs, the same habit of mind: research carefully, structure clearly, ship what's actually useful.</p>
@@ -67,12 +70,12 @@
         <h3>Academic &amp; Curriculum Development</h3>
         <p>Schemes of work, teacher manuals, and student textbooks built for Ghana's GES calendar and Cambridge-aligned syllabi.</p>
       </div>
-      <div class="card">
+      <div class="card literary">
         <svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a2 2 0 012-2h8l6 6v10a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M14 3v6h6"/></svg>
         <h3>Writing &amp; Ghostwriting</h3>
         <p>Long-form nonfiction, academic resources, and ghostwritten manuscripts — grounded in research and a clear authorial voice.</p>
       </div>
-      <div class="card">
+      <div class="card literary">
         <svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
         <h3>Entrepreneurship</h3>
         <p>Independent projects across publishing, education, and content — built quietly, released deliberately.</p>
@@ -80,12 +83,13 @@
     </div>
   </section>
 
-  <section class="block wrap">
+  <section class="block wrap reveal">
     <div class="section-head">
       <h2>Currently in print</h2>
     </div>
     <div class="featured">
       <div class="book-mini">
+        <img class="cover-photo" src="assets/book-cover.jpg" alt="" onerror="this.remove()">
         <span class="tag">Nonfiction</span>
         <span class="title">I Build in Silence Whiles They Thought I Was Losing</span>
       </div>
@@ -97,7 +101,7 @@
     </div>
   </section>
 
-  <section class="footer-cta wrap">
+  <section class="footer-cta wrap reveal">
     <h2>Have a project in mind?</h2>
     <a href="contact.html" class="btn btn-solid">Start a conversation →</a>
   </section>
@@ -108,5 +112,6 @@
   <span>Accra, Ghana</span>
 </footer>
 
+<script src="js/site.js" defer></script>
 </body>
 </html>
